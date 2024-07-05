@@ -1,0 +1,135 @@
+/* trans hsl(205.71deg 79.19% 56.67%)
+nav hsl(214.09deg 91.67% 9.41%)
+btn hsl(206.58deg 62.2% 49.8%) */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background: hsl(206.58deg 62.2% 49.8%) ;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+    color: white;
+}
+header .call{
+    display: flex;
+    justify-content: center;
+}
+header img{
+    height: 10px;
+    width: 10px;
+    padding-right:2px;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:hsl(214.09deg 91.67% 9.41%) ;
+    height: 80px;
+    width: 100%;
+}
+#nav .logo{
+    font-size: 30px;
+    color: white;
+    padding-left: 100px;
+}
+#nav ul{
+    list-style: none;
+    padding-right: 100px;
+}
+#nav ul li{
+    display: inline-block;
+    padding: 7px;
+}
+#nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0px 10px;
+}
+#nav ul li a:hover{
+    background:hsl(206.58deg 62.2% 49.8%) ;
+    padding: 30px 10px;
+}
+#hero{
+    background: hsla(207, 62%, 50%, 0.685);
+    height: 500px;
+    width: 100%;
+    position: relative;
+}
+#hero .text{
+    position: absolute;
+    color: white;
+    z-index: 1;
+    top: 38%;
+    left: 38%;
+    text-align: center;
+    
+}
+.text h1{
+    font-size: 50px;
+}
+.text p{
+    font-size: 22px;
+}
+#hero img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+#welcome{
+    background: #ddd;
+    padding: 100px 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#welcome .para{
+    flex-basis: 80%;
+}
+#welcome .btn button{
+    flex-basis: 20%;
+    background: hsl(206.58deg 62.2% 49.8%);
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid hsl(206.58deg 62.2% 49.8%);
+    font-size: 18px;
+}
+#svc-sec{
+    background: white;
+    text-align: center;
+    padding:100px 100px 0px;
+}
+#svc-sec .svc{
+    padding:60px 0px
+}
+#svc-sec>p{
+    padding: 15px 0px;
+}
+.svc{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.svc .icon{
+    flex-basis: 30%;
+    margin: 20px;
+}
+.svc .icon img{
+    height: 50px;
+    width: 50px;
+    float: left;
+}
+#footer{
+    background: #ddd;
+    height: 150px;
+    width: 100%;
+    text-align:center;
+}
+#footer h1{
+    padding-top: 100px;
+}
